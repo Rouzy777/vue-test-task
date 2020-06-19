@@ -1,7 +1,7 @@
 <template>
     <div>
         <input class='form-control col-lg-6' type="text" placeholder="Введите любой текст" v-model='text'>
-        <Updater :isLink='false' @click.native='update' class='my-3'/>
+        <Updater :isLink='false' @click.native.prevent='update' class='my-3'/>
         <h4>Полученный текст: {{ textStore }}</h4>
     </div>
 </template>
