@@ -1,10 +1,8 @@
 <template>
     <div>
         <Navbar/>
-        <main>
-            <div class="mt-3 container">
-                <nuxt/>
-            </div>
+        <main class="mt-3 container">
+            <nuxt/>
         </main>
     </div>
 </template>

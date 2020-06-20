@@ -2,9 +2,9 @@
     <a v-if='isLink' href="#">
         Обновить (ссылка)
     </a>
-    <div v-else class='btn btn-primary'>
+    <span v-else class='btn btn-primary'>
         Обновить
-    </div>
+    </span>
 </template>
 
 <script>
