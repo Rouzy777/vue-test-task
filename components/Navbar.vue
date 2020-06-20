@@ -6,10 +6,10 @@
     	</button>
     	<div class="collapse navbar-collapse" id="navbarNav">
     		<ul class="navbar-nav">
-    			<li v-for='page in routes' :key='page.name' class="nav-item">
-                    <nuxt-link active-class='active' class='nav-link' :to='page.link' exact>
-		                {{page.name}}
-                    </nuxt-link>
+    		  <li v-for='page in routes' :key='page.name' class="nav-item">
+          	<nuxt-link active-class='active' class='nav-link' :to='page.link' exact>
+            	{{page.name}}
+            </nuxt-link>
     			</li>
     		</ul>
     	</div>
